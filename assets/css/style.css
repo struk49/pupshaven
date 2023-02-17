@@ -1,3 +1,24 @@
 body {
-  margin-top: 75px;
+  margin:0;
+  padding: 0;
+  border: 0;
+}
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+.jumbotron{
+  background-color: red;
+  margin: 10px auto;
+  padding: 75px;
+}
+.jumbotron h1
+{
+  color: #fafafa;
+  font-size: 500%;
+}
+.jumbotron p{
+  font-size: 400%;
+  color: #fafafa;
 }
