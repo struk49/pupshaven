@@ -1,56 +1,105 @@
-.navbar{ background:#F97300;}
-
-.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
-
-.nav-link{ margin-right: 1em !important;}
-
-.nav-link:hover{ background: #f4f4f4; color: #f97300; }
-
-.navbar-collapse{ justify-content: flex-end;}
-
-.navbar-toggler{  background:#fff !important;}
-
-.navbar-collapse{
-    justify-content: flex-end;
- }
-
- .bg-dark{
-    background-color:#343a40!important
+.intro{
+  height: 70%;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
   }
-
-/*header style*/
-.header{
-    background-image: ('https://cdn.pixabay.com/photo/2016/10/31/14/55/rottweiler-1785760__340.jpg') width=100% height=500px no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-   }
-   /*.overlay{
+  #name{
+  font-family: cursive;
+  padding-left:40%;
+  padding-top: 10%;
+  padding-bottom: 40%;
+  padding-right: 20%;
+  font-size:xx-large;
+  }
+  * {
+  box-sizing: border-box;
+  }
+  .column {
+  float: left;
+  width: 33%;
+  padding: 5px 5px;
+  }
+  .blog {margin: 0 -5px;}
+  .blog:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  }
+  @media screen and (max-width: 600px) {
+  .column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  }
+  img{
+  height:auto;
+  width: auto;
+  }
+  }
+  #about{
+  text-align: center;
+  font-size: x-large;
+  }
+  .aboutme{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  }
+  #mypic{
+  border-radius: 50%;
+  }
+  .fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%
+  }
+  .fa:hover {
+  opacity: 0.7;
+  }
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  .fa-instagram {
+  background: #125688;
+  color: white;
+  }
+  .image{
     position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(226, 99, 99, 0.7);
-   }*/
-   .description{
+    top: 5vh;
+    left: 3vw;
+    border-radius: 50%;
+    }
+    .video{
     position: absolute;
-    top: 30%;
-    margin: auto;
-    padding: 2em;
-    
-}
-.description h1{
- color:#F97300 ;
-}
-.description p{
- color:#666;
- font-size: 20px;
- width: 50%;
- line-height: 1.5;
-}
-.description button{
- border:1px  solid #F97300;
- background:#F97300;
- color:#fff;
-}
+    left: 3vw;
+    bottom: 4vw;
+    }
+    .desc{
+    position: absolute;
+    margin-left: 12cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-right: 1cm;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    text-align: center;
+    background-color: #f1f1f1;
+    }
+    .posts{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    background-color: #f1f1f1;
+    }
