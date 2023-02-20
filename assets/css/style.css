@@ -9,7 +9,7 @@ body {
   }
 }
 .jumbotron{
-  background-color: red;
+  background-color: #777777;
   margin: 10px auto;
   padding: 75px;
   width: 100%;
@@ -19,6 +19,9 @@ body {
 {
   color: #fafafa;
   font-size: 200%;
+}
+h3{
+  font-size: 75px
 }
 .jumbotron p{
   font-size: 100%;
@@ -31,25 +34,42 @@ text-align: center;
 
 img
 {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   display: block;
 }
 h3{
-  font-size: 25px;
-  color: #777777;
+  font-size: 20px;
+  color: #3c3b3b;
 }
 .media{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 .media, .content{
-  flex: 1;
-  margin: auto;
-  padding: 10px;
+
 }
 .content h2{
   float: left;
   padding: 0;
   text-align: left;
+  color: #777777;
+  font-size: 25px;
+}
+
+.jumbotron  img{
+  padding: 0;
+  height: 200px;
+  width: 300px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box div{
+
 }
