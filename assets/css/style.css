@@ -29,23 +29,23 @@ h3{
 }
 
 div p{
-text-align: center;
+text-align: left;
 }
 
 img
 {
   width: 125px;
   height: 125px;
-  display: block;
+  display: flex;
 }
 h3{
   font-size: 20px;
   color: #3c3b3b;
 }
 .media{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline;
+  text-align: inherit;
+  justify-content: left;
   margin: 10px;
 }
 .media, .content{
